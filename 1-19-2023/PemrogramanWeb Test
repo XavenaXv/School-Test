@@ -100,7 +100,20 @@ body {
         }
         
         .lorem{
-          text-align: center;
+            position: absolute;
+            right: 0;
+            padding: 30px 30px 30px;
+            background: rgba(255, 255, 255, 0.73);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(9.8px);
+            margin-left: 50px;
+            margin-right: 50px;
+            -webkit-backdrop-filter: blur(9.8px);
+               position: absolute;
+             top: 50%;
+           -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
         }
         
         
@@ -131,9 +144,10 @@ body {
             <a href="" class="Home">Berita</a>
         </div>
     </div>
-
-        <p style="text-align: justify;" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="lorem">
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        </div>
         <div class="Footer" style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
             <p>DDK Pemrograman Web</p>
         </div>
