@@ -1,0 +1,37 @@
+desisi = "y"
+
+def my_function():
+    nilai = input("Masukkan Nilai = ")
+    nilai = int(nilai)
+
+    if nilai >= 90:
+        print("Nilai mu A")
+    elif nilai > 79 and nilai < 90:
+        print("Nilai mu B")
+    elif nilai > 69 and nilai < 80:
+        print("Nilai mu C")
+    elif nilai > 59 and nilai < 70:
+        print("Nilai mu D")
+    elif nilai < 60:
+        print("Nilai mu E")
+    else:
+        print("Salah masukkan data, ulangi? [y/t]")
+   
+    desisi = input("Ulangi? [y/t]")
+    
+my_function()
+    
+if desisi := "y":
+    my_function()
+elif desisi := "t":
+    print("Makasi")
+
+    
+
+
+
+    
+  
+
+
+
