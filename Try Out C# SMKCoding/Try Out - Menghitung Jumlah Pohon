@@ -1,0 +1,15 @@
+// Aturan:
+// 1. Kode program hanya boleh ditulis didalam fungsi `run`
+// 2. Dilarang mengubah penamaan dan struktur pada kode diluar fungsi `run`
+// 3. Tidak menaati aturan 1 dan 2 dapat menyebabkan program gagal dijalankan
+// 4. Jika terdapat kesalahan dalam kode program, maka kolom "result" akan menampilkan data kosong.
+// 5. Segala macam bentuk import yang dibutuhkan sudah dihandle oleh sistem
+
+class Studio {
+    public static int run(int p, int l, int j) {
+            int keliling = 2 * (p + l);
+            int jumlahPohon = keliling / j;
+
+            return jumlahPohon;
+    }
+}
