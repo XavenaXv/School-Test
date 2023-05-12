@@ -1,0 +1,20 @@
+// Aturan:
+// 1. Kode program hanya boleh ditulis didalam fungsi `run`
+// 2. Dilarang mengubah penamaan dan struktur pada kode diluar fungsi `run`
+// 3. Tidak menaati aturan 1 dan 2 dapat menyebabkan program gagal dijalankan
+// 4. Jika terdapat kesalahan dalam kode program, maka kolom "result" akan menampilkan data kosong.
+// 5. Segala macam bentuk import yang dibutuhkan sudah dihandle oleh sistem
+
+class Studio {
+    public static int run(int i) {
+
+    int[] barisan = { 4, 3, 10, 6, 16, 9, 22, 12 };
+
+    if (i <= 0 || i > barisan.Length)
+    {
+        throw new ArgumentException("Input tidak valid");
+    }
+
+    return barisan[i - 1];
+    }
+}
