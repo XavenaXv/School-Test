@@ -1,0 +1,35 @@
+// Aturan:
+// 1. Kode program hanya boleh ditulis didalam fungsi `run`
+// 2. Dilarang mengubah penamaan dan struktur pada kode diluar fungsi `run`
+// 3. Tidak menaati aturan 1 dan 2 dapat menyebabkan program gagal dijalankan
+// 4. Jika terdapat kesalahan dalam kode program, maka kolom "result" akan menampilkan data kosong.
+// 5. Segala macam bentuk import yang dibutuhkan sudah dihandle oleh sistem
+
+class Studio {
+    public static string run(int n1, int n2, int n3) {
+        bool hasil;
+
+if (n1 > 90 && n2 > 90 && n3 > 90) {
+    hasil = true;
+}
+else if (n1 > 90 && n2 > 90) {
+    if (n3 >= n2) {
+        hasil = true;
+    }
+    else {
+        hasil = false;
+    }
+}
+else {
+    hasil = false;
+}
+
+if (hasil == true) {
+        return "BENAR";
+}
+else {
+        return "SALAH";
+}
+
+    }
+}
